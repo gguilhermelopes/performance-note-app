@@ -1,0 +1,169 @@
+[
+  {
+    "nomeTreino": "Peito, bíceps e ombro",
+    "treino": [
+      {
+        "nome": "Supino articulado",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Supino cross reto no banco",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 8 },
+          { "serie5": 8 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Crossover inferior",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Rosca direta cross",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Bíceps no banco scott e cabo",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Elevação lateral",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 8 },
+          { "serie5": 8 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Desenvolvimento com halteres",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      }
+    ]
+  },
+  {
+    "nomeTreino": "Perna completa",
+    "treino": [
+      {
+        "nome": "Agachamento no hack",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Leg press articulado",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Cadeira extensora",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Elevação pélvica na máquina",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Agachamento sumô",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      },
+      {
+        "nome": "Mesa flexora",
+        "series": [
+          { "serie1": 15 },
+          { "serie2": 12 },
+          { "serie3": 10 },
+          { "serie4": 10 }
+        ],
+        "falha": false
+      }
+    ]
+  },
+  {
+    "nomeTreino": "Costas e tríceps",
+    "treino": [
+      {
+        "nome": "Pulley com triângulo",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Remada curvada",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Remada baixa com triângulo",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Pulldown na polia com corda",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Tríceps francês na polia",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Tríceps testa na polia",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
+        "nome": "Tríceps barra V na polia",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      }
+    ]
+  }
+]

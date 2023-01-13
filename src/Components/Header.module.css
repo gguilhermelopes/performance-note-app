@@ -1,0 +1,22 @@
+.headerWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--cor-3);
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  padding: 1.5rem;
+}
+
+.header svg {
+  transition: 0.3s;
+}
+
+.header svg:hover,
+.header svg:focus {
+  transform: scale(1.125);
+}

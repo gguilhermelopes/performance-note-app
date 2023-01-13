@@ -1,0 +1,22 @@
+.buttonContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.avancarWrapper {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+}
+
+.main h2 {
+  margin-top: 5.125rem;
+}
+
+.avancar {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
