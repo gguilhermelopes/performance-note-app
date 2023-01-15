@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import "./App.css";
@@ -10,7 +10,7 @@ import Tabela from "./Components/Tabela";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <GlobalStorage>
         <Header />
         <Routes>
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="user/:name/:treino/tabela" element={<Tabela />} />
         </Routes>
       </GlobalStorage>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

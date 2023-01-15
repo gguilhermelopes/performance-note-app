@@ -6,7 +6,7 @@ import exercicios from "../exercicios.json";
 
 const Treino = () => {
   const { treino, name } = useParams();
-  const { ex, setEx } = React.useContext(GlobalContext);
+  const { ex, setEx, setMuscularGroup } = React.useContext(GlobalContext);
   const navigate = useNavigate();
 
   function handleChange({ target }, index, indexSerie) {
@@ -17,6 +17,7 @@ const Treino = () => {
   }
 
   React.useEffect(() => {
+    setMuscularGroup(treino);
     const data = JSON.parse(window.localStorage.getItem("exercicios"));
     if (data) {
       setEx(data);
@@ -31,7 +32,7 @@ const Treino = () => {
         })
       );
     }
-  }, [setEx]);
+  }, [setEx, setMuscularGroup, treino]);
 
   const exerciciosFiltro = exercicios.filter((i) => {
     return i.nomeTreino === treino;
@@ -52,9 +53,12 @@ const Treino = () => {
               <div key={`exercicio${+index + 1}Serie${+indexSerie + 1}`}>
                 <label
                   htmlFor={`exercicio${+index + 1}Serie${+indexSerie + 1}`}
-                >{`${+indexSerie + 1}ª série `}</label>
+                >{`${+indexSerie + 1}ª série (${
+                  serie[`serie${+indexSerie + 1}`]
+                })`}</label>
                 <input
                   id={`exercicio${+index + 1}Serie${+indexSerie + 1}`}
+                  type="number"
                   name={`${index + 1}${indexSerie + 1}`}
                   value={serie[indexSerie]}
                   onChange={(event) => handleChange(event, index, indexSerie)}

@@ -7,11 +7,13 @@ import { GlobalContext } from "../Hooks/GlobalContext";
 const User = () => {
   const { name } = useParams();
   const [treino, setTreino] = React.useState("");
-  const { setEx } = React.useContext(GlobalContext);
+  const { setEx, muscularGroup } = React.useContext(GlobalContext);
 
   function clearState() {
-    setEx([[], [], [], [], [], [], []]);
-    window.localStorage.clear();
+    if (treino !== muscularGroup) {
+      setEx([[], [], [], [], [], [], []]);
+      window.localStorage.clear();
+    }
   }
 
   function handleClick({ currentTarget }) {
@@ -29,7 +31,7 @@ const User = () => {
       <div className={styles.avancarWrapper}>
         {treino ? (
           <Link onClick={clearState} to={`/user/${name}/${treino}`}>
-            <button className={styles.avancar}>
+            <button onClick={clearState} className={styles.avancar}>
               Avançar <Forward />
             </button>
           </Link>

@@ -1,3 +1,31 @@
 .name {
   font-weight: 700;
 }
+
+.voltar {
+  margin: 2rem 0;
+}
+
+.tableWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.tableName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tableTitle {
+  font-size: 1.25rem;
+}
+
+.downloadWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
