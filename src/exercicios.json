@@ -150,6 +150,11 @@
         "falha": false
       },
       {
+        "nome": "Posterior de ombro na polia/máquina",
+        "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
+        "falha": false
+      },
+      {
         "nome": "Tríceps francês na polia",
         "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
         "falha": false
