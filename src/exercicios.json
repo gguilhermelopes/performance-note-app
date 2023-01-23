@@ -105,7 +105,7 @@
         "falha": false
       },
       {
-        "nome": "Agachamento sumô",
+        "nome": "Stiff",
         "series": [
           { "serie1": 15 },
           { "serie2": 12 },
@@ -150,7 +150,7 @@
         "falha": false
       },
       {
-        "nome": "Posterior de ombro na polia/máquina",
+        "nome": "Posterior de ombro na máquina/cross",
         "series": [{ "serie1": 15 }, { "serie2": 12 }, { "serie3": 10 }],
         "falha": false
       },

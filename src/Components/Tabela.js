@@ -13,7 +13,6 @@ const Tabela = () => {
   const exerciciosFiltro = exercicios.filter((i) => {
     return i.nomeTreino === treino;
   });
-
   const date = new Date().toLocaleDateString("pt-br").replaceAll("/", "_");
 
   React.useEffect(() => {

@@ -11,7 +11,7 @@ const User = () => {
 
   function clearState() {
     if (treino !== muscularGroup) {
-      setEx([[], [], [], [], [], [], []]);
+      setEx([[], [], [], [], [], [], [], [], [], []]);
       window.localStorage.clear();
     }
   }

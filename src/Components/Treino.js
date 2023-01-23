@@ -9,13 +9,6 @@ const Treino = () => {
   const { ex, setEx, setMuscularGroup } = React.useContext(GlobalContext);
   const navigate = useNavigate();
 
-  function handleChange({ target }, index, indexSerie) {
-    let data = [...ex];
-    data[index][indexSerie] = target.value;
-    setEx(data);
-    window.localStorage.setItem("exercicios", JSON.stringify(data));
-  }
-
   React.useEffect(() => {
     setMuscularGroup(treino);
     const data = JSON.parse(window.localStorage.getItem("exercicios"));
@@ -33,6 +26,13 @@ const Treino = () => {
       );
     }
   }, [setEx, setMuscularGroup, treino]);
+
+  function handleChange({ target }, index, indexSerie) {
+    let data = [...ex];
+    data[index][indexSerie] = target.value;
+    setEx(data);
+    window.localStorage.setItem("exercicios", JSON.stringify(data));
+  }
 
   const exerciciosFiltro = exercicios.filter((i) => {
     return i.nomeTreino === treino;
